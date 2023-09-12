@@ -1,0 +1,68 @@
+html{
+
+    background-color:black;
+
+}
+
+body{
+    font-family: "Audiowide",sans-serif;
+    font-size:large;
+}
+
+.navbar-item:hover{
+    color:white;
+    background-color: none;
+}
+/* Override the default hover color for is-tab navbar items */
+.navbar-item.is-tab:hover {
+    background-color: blue; /* Replace 'blue' with your custom color */
+    color: white; /* Change text color on hover if needed */
+    /* Add any other custom styles you want for the hover effect */
+}
+
+
+
+.accordion{
+       
+}
+
+.accordion-item {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom:1rem;
+    border-bottom:2px solid #fff;
+    cursor:pointer;
+}
+
+.accordion-header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.accordion-header h1{
+    font-size:1.5rem;
+
+}
+
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.accordion-body p{
+    padding-top:1rem;
+    line-height:1.6;
+    /* font-size:1rem; */
+
+}
+
+/* .accordion.active.accordion-body{
+    max-height: 300px;
+}
+                         */
+.accordion-body.active{
+    display:block !important;
+}
