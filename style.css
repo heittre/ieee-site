@@ -5,21 +5,79 @@ html{
 }
 
 body{
-    font-family: "Audiowide",sans-serif;
-    font-size:large;
+    font-family: 'Maven Pro', sans-serif;
+    font-size:20px;
+    background-color: black;
+    color: white !important;
 }
 
-.navbar-item:hover{
-    color:white;
-    background-color: none;
+
+.title{
+    padding:20px;
+    color: white !important;
 }
+
+p{
+    padding:10px;
+}
+.hero-body{
+    display:flex;
+    justify-content: center;
+    padding:100px;
+   
+}
+.navbar-item:hover .navbar-link{
+    color: blue !important;
+    background-color: none !important;
+}
+.navbar-item:active{
+    background-color: none!important;
+    color: white !important;;
+}
+.navbar-item:focus{
+    background-color: none!important;
+    color:white !important;
+}
+.navbar-item.is-active{
+    background-color: none !important;
+    color:white!important;
+}
+
+.navbar-link{
+    color:#fff;
+    font-size:1rem;
+    font-weight: 600;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.navbar-item{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin:10px;
+}
+
 /* Override the default hover color for is-tab navbar items */
-.navbar-item.is-tab:hover {
-    background-color: blue; /* Replace 'blue' with your custom color */
-    color: white; /* Change text color on hover if needed */
-    /* Add any other custom styles you want for the hover effect */
+
+.list-items{
+    margin-left:10px;
 }
 
+.card-container{
+    display:flex;
+    justify-content: space-between;
+    max-width: 75%;
+    
+    margin-left:15%;
+    margin-right:15%;
+}
+.card {
+    border-radius: 30px;
+    border: #fff 2px solid;
+    display: flex;
+    align-items:center;
+    background-color: black;
+    
+}
 
 
 .accordion{
