@@ -26,21 +26,21 @@ p{
     padding:100px;
    
 }
-.navbar-item:hover .navbar-link{
+.navbar-item:hover{
     color: blue !important;
-    background-color: none !important;
+    background-color: transparent !important;
 }
 .navbar-item:active{
-    background-color: none!important;
+    background-color: transparent !important;
     color: white !important;;
 }
 .navbar-item:focus{
-    background-color: none!important;
+    background-color: transparent !important;
     color:white !important;
 }
 .navbar-item.is-active{
-    background-color: none !important;
-    color:white!important;
+    background-color: transparent !important;
+    color:white !important;
 }
 
 .navbar-link{
