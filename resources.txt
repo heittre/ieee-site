@@ -1,0 +1,4 @@
+fontawesome.com
+Google fonts
+Bulma framework
+RevolUX original site - https://revolux.ucscieee.lk/
